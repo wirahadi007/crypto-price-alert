@@ -1,0 +1,26 @@
+{
+  "name": "crypto-price-alert",
+  "version": "1.0.0",
+  "description": "Nest.js project for tracking Ethereum and Polygon prices with email alerts",
+  "scripts": {
+    "start": "nest start"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/schedule": "^2.0.0",
+    "@nestjs/swagger": "^5.2.1",
+    "@nestjs/typeorm": "^9.0.0",
+    "mailgun-js": "^0.22.0",
+    "mailtrap": "^3.4.0",
+    "moralis": "^2.27.2",
+    "nodemailer": "^6.9.15",
+    "pg": "^8.5.1",
+    "swagger-ui-express": "^5.0.1",
+    "typeorm": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/mailgun-js": "^0.22.18"
+  }
+}
