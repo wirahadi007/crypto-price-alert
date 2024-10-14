@@ -82,6 +82,15 @@ To stop the running services, use the following command:
 docker-compose down
 ```
 
+### Accessing the api documentation
+
+You can access api documentation with the following this step:
+
+- Run this project
+- access the api at [http://localhost:3000/price/api]
+
+and you can see the swagger UI
+
 ## Notes
 
 - Ensure that your Mailgun account is activated and set up correctly to send emails.
